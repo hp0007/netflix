@@ -10,7 +10,7 @@ const Header = () => {
         {
             id:1,
             name:"Home",
-            path:"/"
+            path:"/netflix"
         },
         {
             id:2,
