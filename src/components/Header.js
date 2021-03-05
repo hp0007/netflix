@@ -42,7 +42,7 @@ const Header = () => {
                                 navData.map(data => {
                                     return(
                                         <li className="nav-item ml-5" key={data.id}>
-                                            <NavLink className="nav-link" to={data.path} activeClassName="active">{data.name}</NavLink>
+                                            <NavLink className="nav-link" to={data.path} exact activeClassName="active">{data.name}</NavLink>
                                         </li>
                                     )
                                 })
