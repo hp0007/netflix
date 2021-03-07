@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/images/logo.png";
 import { BiSearch } from "react-icons/bi";
@@ -6,6 +6,14 @@ import { BsFillBellFill } from "react-icons/bs";
 import account from "../assets/images/acc1.jpg";
 
 const Header = () => {
+  window.addEventListener("scroll", function () {
+    var header = document.getElementById("navbar2");
+    if (window.scrollY > 0) {
+      header.style.background = "#191919";
+    } else {
+      header.style.background = "none";
+    }
+  });
   const navData = [
     {
       id: 1,
@@ -28,10 +36,11 @@ const Header = () => {
       path: "/series",
     },
   ];
+
   return (
     <div>
       <div className="header">
-        <nav className="navbar navbar-expand-lg ">
+        <nav className="navbar navbar-expand-lg pt-4 pb-4" id="navbar2">
           <img className="ml-3" src={Logo} />
           <button
             class="navbar-toggler collapsed"
