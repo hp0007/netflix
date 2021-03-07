@@ -109,15 +109,6 @@ const Home = () => {
                   Session 5
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="session ml-2">
-                <img src={session5} />
-                <div className="overlay2">
-                  <i>
-                    <AiFillPlayCircle />
-                  </i>
-                  Session 5
-                </div>
-              </SwiperSlide>
             </Swiper>
             <div className="buttons d-flex mt-5">
               <button className="btn watch">
