@@ -13,11 +13,11 @@ import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
 import "swiper/components/scrollbar/scrollbar.scss";
 
-import session1 from "../assets/images/session/images-1.jpg";
-import session2 from "../assets/images/session/images-2.jpg";
-import session3 from "../assets/images/session/images-3.jpg";
-import session4 from "../assets/images/session/images-4.jpg";
-import session5 from "../assets/images/session/images-5.jpeg";
+import season1 from "../assets/images/season/images-1.jpg";
+import season2 from "../assets/images/season/images-2.jpg";
+import season3 from "../assets/images/season/images-3.jpg";
+import season4 from "../assets/images/season/images-4.jpg";
+import season5 from "../assets/images/season/images-5.jpeg";
 
 import actor1 from "../assets/images/actors/actor-1.jpg";
 import actor2 from "../assets/images/actors/actor-2.jpg";
@@ -64,49 +64,49 @@ const Home = () => {
                 },
               }}
             >
-              <SwiperSlide className="session">
-                <img src={session1} />
+              <SwiperSlide className="season">
+                <img src={season1} />
                 <div className="overlay2">
                   <i>
                     <AiFillPlayCircle className="text-white" />
                   </i>
-                  Session 1
+                  Season 1
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="session ml-0">
-                <img src={session2} />
+              <SwiperSlide className="season ml-0">
+                <img src={season2} />
                 <div className="overlay2">
                   <i>
                     <AiFillPlayCircle className="text-white" />
                   </i>
-                  Session 2
+                  Season 2
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="session ml-0">
-                <img src={session3} />
+              <SwiperSlide className="season ml-0">
+                <img src={season3} />
                 <div className="overlay2">
                   <i>
                     <AiFillPlayCircle className="text-white" />
                   </i>
-                  Session 3
+                  Season 3
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="session ml-0">
-                <img src={session4} />
+              <SwiperSlide className="season ml-0">
+                <img src={season4} />
                 <div className="overlay2">
                   <i>
                     <AiFillPlayCircle className="text-white" />
                   </i>
-                  Session 4
+                  Season 4
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="session ml-0">
-                <img src={session5} />
+              <SwiperSlide className="season ml-0">
+                <img src={season5} />
                 <div className="overlay2">
                   <i>
                     <AiFillPlayCircle className="text-white" />
                   </i>
-                  Session 5
+                  Season 5
                 </div>
               </SwiperSlide>
             </Swiper>
