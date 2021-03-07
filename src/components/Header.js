@@ -39,8 +39,8 @@ const Header = () => {
             data-toggle="collapse"
           >
             <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
+            <span class="line mt-1"></span>
+            <span class="line mt-1"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto mr-auto">
