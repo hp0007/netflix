@@ -94,7 +94,7 @@ body {
 }
 
 .container-home .row .right {
-  padding: 3% 9%;
+  padding: 3% 4%;
 }
 .container-home .row .right h2 {
   font-size: 4rem;
@@ -224,7 +224,7 @@ body {
     color: #000;
   }
 }
-/* @media screen and (min-width: 1000px) and (max-width: 1200px) {
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
   .nav-item {
     margin-left: 0% !important;
   }
@@ -271,7 +271,7 @@ body {
   i {
     color: #fff;
   }
-} */
+}
 @media screen and (max-width: 500px) {
   .navbar {
     width: 100vw;
