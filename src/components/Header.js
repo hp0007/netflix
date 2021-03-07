@@ -40,7 +40,7 @@ const Header = () => {
   return (
     <div>
       <div className="header">
-        <nav className="navbar navbar-expand-lg pt-4 pb-4" id="navbar2">
+        <nav className="navbar navbar-expand-md pt-4 pb-4" id="navbar2">
           <img className="ml-3" src={Logo} />
           <button
             class="navbar-toggler collapsed"
@@ -55,7 +55,7 @@ const Header = () => {
             <ul className="navbar-nav ml-auto mr-auto">
               {navData.map((data) => {
                 return (
-                  <li className="nav-item ml-5" key={data.id}>
+                  <li className="nav-item mr-5" key={data.id}>
                     <NavLink
                       className="nav-link"
                       to={data.path}

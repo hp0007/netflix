@@ -138,6 +138,54 @@ body {
 }
 
 /* Responsive */
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .nav-item {
+    margin-left: 0% !important;
+  }
+  .container-home {
+    height: 45rem;
+    width: 100%;
+    background-size: 100% 100%;
+  }
+  .container-home .overlay {
+    height: 45rem;
+    width: 100%;
+  }
+  .container-home .left {
+    height: 100%;
+    margin-top: 0%;
+  }
+  .container-home .left p {
+    color: #fff;
+  }
+  .container-home .left .session {
+    margin-right: 0%;
+  }
+  .container-home .row .left .buttons {
+    margin-top: 10% !important;
+  }
+  .container-home .row .left .buttons .watch {
+    padding: 0% 2%;
+    width: 100%;
+    margin: 0% 0%;
+    font-size: 0.9rem;
+  }
+  .container-home .row .left .buttons .favourite {
+    width: 100%;
+    padding: 2.5% 2%;
+    margin: 0% 0%;
+    font-size: 0.9rem;
+  }
+  .container-home .right {
+    margin-top: 0%;
+  }
+  .container-home .right h2,
+  h4,
+  p,
+  i {
+    color: #fff;
+  }
+}
 @media screen and (min-width: 700px) and (max-width: 900px) {
   .navbar {
     width: 100vw;
