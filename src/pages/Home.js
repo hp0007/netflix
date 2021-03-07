@@ -68,7 +68,7 @@ const Home = () => {
                 <img src={session1} />
                 <div className="overlay2">
                   <i>
-                    <AiFillPlayCircle />
+                    <AiFillPlayCircle className="text-white" />
                   </i>
                   Session 1
                 </div>
@@ -77,7 +77,7 @@ const Home = () => {
                 <img src={session2} />
                 <div className="overlay2">
                   <i>
-                    <AiFillPlayCircle />
+                    <AiFillPlayCircle className="text-white" />
                   </i>
                   Session 2
                 </div>
@@ -86,7 +86,7 @@ const Home = () => {
                 <img src={session3} />
                 <div className="overlay2">
                   <i>
-                    <AiFillPlayCircle />
+                    <AiFillPlayCircle className="text-white" />
                   </i>
                   Session 3
                 </div>
@@ -95,7 +95,7 @@ const Home = () => {
                 <img src={session4} />
                 <div className="overlay2">
                   <i>
-                    <AiFillPlayCircle />
+                    <AiFillPlayCircle className="text-white" />
                   </i>
                   Session 4
                 </div>
@@ -104,7 +104,7 @@ const Home = () => {
                 <img src={session5} />
                 <div className="overlay2">
                   <i>
-                    <AiFillPlayCircle />
+                    <AiFillPlayCircle className="text-white" />
                   </i>
                   Session 5
                 </div>
@@ -114,7 +114,7 @@ const Home = () => {
               <button className="btn watch">
                 Watch Now
                 <i className="video ml-3">
-                  <AiFillPlayCircle />
+                  <AiFillPlayCircle className="text-white" />
                 </i>
               </button>
               <button className="btn favourite ml-5">
