@@ -382,3 +382,27 @@ body {
     color: #000;
   }
 }
+@media screen and (max-width: 330px) {
+  .container-home .left .season {
+    margin-right: 1% !important;
+  }
+  .container-home .left .season img {
+    width: 8rem !important;
+  }
+  .container-home .left .season .overlay2 {
+    width: 8rem !important;
+  }
+
+  .container-home .row .left .buttons .watch {
+    padding: 0% 0%;
+    width: 100%;
+    margin: 0% 2% !important;
+    font-size: 0.9rem;
+  }
+  .container-home .row .left .buttons .favourite {
+    width: 100%;
+    padding: 2.5% 0%;
+    margin: 0% 2% !important;
+    font-size: 0.9rem;
+  }
+}

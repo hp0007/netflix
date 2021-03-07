@@ -55,7 +55,10 @@ const Home = () => {
               onSwiper={(swiper) => console.log(swiper)}
               breakpoints={{
                 // when window width is >= 640px
-                300: {
+                250: {
+                  slidesPerView: 2,
+                },
+                330: {
                   slidesPerView: 2,
                 },
                 // when window width is >= 768px
